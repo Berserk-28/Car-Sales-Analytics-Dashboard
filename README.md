@@ -53,9 +53,7 @@ Customers (Segment, Region)
 
 Sales Team
 
-DAX Measures
-dax
-Copy
+**DAX Measures**
 Sales Growth YoY = 
 VAR CurrentYearSales = [Total Sales]
 VAR PreviousYearSales = CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Date'[Date]))
